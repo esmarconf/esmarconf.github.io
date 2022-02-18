@@ -255,8 +255,8 @@
 .lni-code:before {
   content: "\e94a";
 }
-.lni-coffee-cup:before {
-  content: "\e94b";
+.lni-cog:before {
+  content: "\xe94c";
 }
 .lni-cog:before {
   content: "\e94c";
