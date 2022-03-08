@@ -223,8 +223,9 @@ ul li, ol li {
 
 .btn-common:hover {
   color: #fff;
-  background: #F50057;
+  background: #d5edea;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  border: 1px solid #4fb3a9;
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
@@ -238,8 +239,9 @@ ul li, ol li {
 
 .btn-common2:hover {
   color: #fff;
-  background: #3ae451;
+  background: #f9c3c3;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ff0200;
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
