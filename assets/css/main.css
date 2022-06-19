@@ -92,6 +92,8 @@ ul li, ol li {
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
+  padding-left:100px;
+  padding-right:100px;
 }
 
 .section-title {
@@ -218,6 +220,7 @@ ul li, ol li {
 .btn-common {
   background-color: #4fb3a9;
   position: relative;
+  left: 25%;
   z-index: 1;
 }
 
@@ -234,6 +237,7 @@ ul li, ol li {
 .btn-common2 {
   background-color: #ff0200;
   position: relative;
+  left: 25%;
   z-index: 1;
 }
 
@@ -654,7 +658,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: #fff;
+  color: #999999;
   padding: 0 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1111,7 +1115,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .schedule .card-body {
-  padding: 15px 70px 15px 110px;
+  padding: 15px 10px 15px 10px;
   background: #fff;
   border-bottom: 1px solid #ddd;
 }
@@ -1736,7 +1740,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Footer Area Start */
 .footer-area {
-  background: #222222;
+  background: #000000;
 }
 
 .footer-area h3 {
