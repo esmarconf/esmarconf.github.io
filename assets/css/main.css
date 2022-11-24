@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700");
+
 html {
   overflow-x: hidden;
 }
@@ -92,8 +93,8 @@ ul li, ol li {
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
-  padding-left:100px;
-  padding-right:100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .section-title {
@@ -491,6 +492,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -502,6 +504,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -563,6 +566,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -572,6 +576,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -671,7 +676,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: relative;
 }
 
-.navbar-expand-lg .navbar-nav li > a:before {
+.navbar-expand-lg .navbar-nav li>a:before {
   content: '';
   position: absolute;
   top: 0;
@@ -701,7 +706,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav li a:hover,
-.navbar-expand-lg .navbar-nav li .active > a,
+.navbar-expand-lg .navbar-nav li .active>a,
 .navbar-expand-lg .navbar-nav li a:focus {
   color: #4fb3a9;
   outline: none;
@@ -842,31 +847,46 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 @media screen and (max-width: 768px) {
+  .logo {
+    max-width: 400px;
+  }
+
   .navbar-header {
     width: 100%;
   }
+
   .navbar-brand {
     position: absolute;
     padding: 15px 15px;
     top: 0;
   }
+
   .navbar-brand img {
     width: 75%;
   }
+
   #mobile-menu {
     display: none;
   }
+
+  .slicknav_nav {
+    padding-top: 143px;
+  }
+
   .slicknav_menu {
     display: block;
   }
+
   .slicknav_nav .active a {
     background: #4fb3a9;
     color: #fff;
   }
+
   .slicknav_nav a:hover, .slicknav_nav .active {
     color: #4fb3a9;
     background: #f5f5f5;
   }
+
   .slicknav_nav .dropdown li a.active {
     background: #f5f5f5;
     color: #4fb3a9;
@@ -937,7 +957,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #4fb3a9;
   overflow: hidden;
   position: relative;
-  /* 
+  /*
     &:before{
     	content: '';
     	position: absolute;
@@ -2084,7 +2104,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #pricing .price-block-wrapper .pricing-list {
-  padding: 10px  60px 10px 78px;
+  padding: 10px 60px 10px 78px;
   text-align: left;
 }
 

@@ -1,6 +1,6 @@
 (function($) {
-  
-  "use strict";  
+
+  "use strict";
 
   $(window).on('load', function() {
 
@@ -16,6 +16,9 @@
             $('.scrolling-navbar').removeClass('top-nav-collapse');
         }
     });
+
+
+    $(".navbar-brand").find('img').addClass('logo');
 
     /* ==========================================================================
        countdown timer
@@ -45,17 +48,17 @@
     });
     wow.init();
 
-    /* Nivo Lightbox 
+    /* Nivo Lightbox
     ========================================================*/
     $('.lightbox').nivoLightbox({
         effect: 'fadeScale',
         keyboardNav: true,
       });
 
-    // one page navigation 
+    // one page navigation
     $('.navbar-nav').onePageNav({
             currentClass: 'active'
-    }); 
+    });
 
     /* Back Top Link active
     ========================================================*/
@@ -77,6 +80,6 @@
         return false;
       });
 
-  });      
+  });
 
 }(jQuery));
